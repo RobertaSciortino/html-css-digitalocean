@@ -86,9 +86,43 @@ h1 {
     padding: 10px 10px 5px 10px;
     margin-right: 10px;
     margin-top: 10px;
+    color: #006CFF;
+}
+
+.nav.navbar-nav.navbar-right.bottom .blue-button {
     color: #FFF;
 }
 
-.nav.navbar-nav.navbar-right.bottom a:first-of-type {
-    color: #006CFF;
+
+/* jumbotron */
+
+
+@media (min-width: 768px) {
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .navbar-header {
+        float: left;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-collapse.collapse {
+        display: block !important;
+    }
 }
