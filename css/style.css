@@ -96,6 +96,108 @@ h1 {
 
 /* jumbotron */
 
+.jumbotron {
+    background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+    background-size: cover;
+    background-color: #0069ff;
+}
+
+
+.jumbotron h1,
+.jumbotron p {
+    color: #FFF;
+}
+
+.jumbotron p {
+    font-size: 24px;
+}
+
+.alert-info {
+    background-color: #031b4e;
+    color: #FFF;
+    font-size: 16px;
+    border: 0;
+    border-radius: 6px;
+}
+
+a.alert {
+    text-decoration: none;
+}
+
+.alert-info:hover {
+    background-color: #15cd72;
+}
+
+.panel-default {
+    width: 370px;
+}
+
+.panel {
+    border-radius: 5px;
+}
+
+.panel-title {
+    background-color: #f3f5f9;
+}
+
+.panel-heading {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: none;
+}
+
+.panel-title,
+.btn-lg {
+     font-weight: 700;
+}
+
+.btn-lg {
+    font-size: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.panel-body .input-lg:first-child {
+    margin-top: 20px;
+}
+
+.panel-body .input-lg:nth-child(2) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.panel-body .input-lg:last-child {
+    margin-top: 10px;
+}
+
+.panel-body .btn-lg {
+    padding-left: 102px;
+    padding-right: 102px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.panel-body {
+    border-bottom: 1px solid #f3f5f9;
+}
+
+.panel-footer .btn-lg:first-child {
+    padding: 10px 55px;
+    margin-right: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.panel-footer .btn-lg:last-child {
+    padding: 10px 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.panel-footer {
+    background-color: #FFF;
+}
+
 
 @media (min-width: 768px) {
 
@@ -112,7 +214,7 @@ h1 {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
 
     .navbar-header {
         float: left;
