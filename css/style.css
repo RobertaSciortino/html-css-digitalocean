@@ -100,6 +100,7 @@ h1 {
     background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
     background-size: cover;
     background-color: #0069ff;
+    margin-bottom: 0;
 }
 
 
@@ -171,10 +172,11 @@ a.alert {
 }
 
 .panel-body .btn-lg {
-    padding-left: 102px;
-    padding-right: 102px;
+    padding-left: 97px;
+    padding-right: 97px;
     margin-top: 10px;
     margin-bottom: 20px;
+    border: 1px solid #0069ff;
 }
 
 .panel-body {
@@ -182,7 +184,7 @@ a.alert {
 }
 
 .panel-footer .btn-lg:first-child {
-    padding: 10px 55px;
+    padding: 10px 51px;
     margin-right: 8px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -196,6 +198,41 @@ a.alert {
 
 .panel-footer {
     background-color: #FFF;
+}
+
+.bottom-form {
+
+}
+
+.bottom-form p {
+    font-size: 12px;
+}
+
+
+/* brands */
+.all-brands {
+    background-color: #f3f5f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.all-brands h4 {
+    font-weight: 700;
+    padding-bottom: 30px;
+    color: #5b6987;
+}
+
+.brand img {
+    margin: auto;
+}
+
+a.solutions {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0069ff;
+}
+.see {
+    padding-top: 50px;
 }
 
 
