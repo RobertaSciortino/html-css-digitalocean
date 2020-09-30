@@ -9,14 +9,17 @@ h1 {
 
 .blue-button {
     background-color: #006aff;
-    border-color: transparent;
+    border: 1px solid #006aff;
     color: #fff;
+    border-radius: 5px;
+
 }
 
 .white-button {
     background-color: transparent;
-    border-color: #006aff;
+    border: 1px solid #006aff;
     color: #006aff;
+    border-radius: 5px;
 }
 
 .navbar.navbar-default {
@@ -40,16 +43,21 @@ h1 {
 #navbar-collapse-1 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 5px;
-    font-weight: 500;
 }
 
 .navbar:first-child .navbar-text,
 #navbar-collapse-1 .navbar-nav>li>a {
-    color: #5b6987;
     font-size: 12px;
 }
 
-#navbar-collapse-1 .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a {
+    color: #031b4f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
     color: #006CFF;
 }
 
@@ -72,5 +80,15 @@ h1 {
 
 .navbar-header {
     padding-top: 5px;
+}
 
+.nav.navbar-nav.navbar-right.bottom a {
+    padding: 10px 10px 5px 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #FFF;
+}
+
+.nav.navbar-nav.navbar-right.bottom a:first-of-type {
+    color: #006CFF;
 }
