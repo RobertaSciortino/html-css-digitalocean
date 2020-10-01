@@ -242,7 +242,8 @@ a.solutions {
 
 /* deploy-and-scale*/
 
-.deploy-and-scale .container {
+.deploy-and-scale .container,
+.carousel .container {
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -256,6 +257,8 @@ h2 {
     padding-top: 10px;
     padding-bottom: 50px;
     font-weight: 300;
+    color: #031b4e99;
+    font-size: 20px;
 }
 
 
@@ -296,11 +299,19 @@ h2 {
     border-bottom: 2px solid #006aff;
 }
 
-.col-sx-12.text-center p,
-.col-xs-12.col-lg-6 p {
-    color: #031b4e99;
-    font-size: 18px;
+
+ /* carousel */
+
+.carousel {
+    background-color: #f3f5f9;
 }
+
+.item.active.img-container {
+    max-width: 778px;
+    margin: auto;
+}
+
+
 
 
 
