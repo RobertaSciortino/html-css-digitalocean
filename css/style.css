@@ -26,7 +26,8 @@ h1 {
 .carousel .container,
 .carousel-first .container,
 .built-for-business .container,
-.bandwidth-pricing {
+.bandwidth-pricing .container,
+.carousel-second {
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -416,7 +417,115 @@ p.caption {
     text-decoration: none;
 }
 
+.col-xs-12.col-lg-6 .city-test:not(:nth-child(12)) {
+    border-bottom: 1px solid #FFFFFF99;
+    margin: 0 10px;
+    padding: 10px 0;
+}
 
+.col-xs-2.text-uppercase {
+    color: #FFF;
+}
+
+.col-xs-2.text-uppercase {
+    font-weight: 700;
+}
+
+.col-xs-7 {
+    color: #FFFFFF99;
+}
+
+.col-xs-3 a {
+    color: #00d7d2;
+}
+
+.bandwidth-pricing .col-xs-3 a:hover {
+    color: #1633ff;
+    text-decoration: none;
+}
+
+/* carousel second */
+.carousel-second {
+    background-color: #f3f5f9;
+}
+
+.carousel-second p {
+    font-size: 18px;
+}
+
+.col-sx-12.text-center{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-weight: 300;
+    color: #031b4e99;
+    font-size: 20px;
+}
+
+.box {
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(1,14,40,0.05);
+    padding: 64px;
+    position: relative;
+}
+.box p {
+    font-size: 24px;
+}
+
+p.text {
+    margin: 30px 0;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #5b6987;
+}
+
+p.text a {
+    color: #006aff;
+    font-size: 16px;
+}
+
+p.text a:hover {
+    color: #1633ff;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.founder p:first-child {
+    color: #5b6987;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.founder p:last-child {
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.box.text-center::before {
+    position: absolute;
+    content: '\f060';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    top: 50%;
+    right: 110%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.box.text-center::after {
+    position: absolute;
+    content: '\f061';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    top: 50%;
+    left: 110%;
+    transform: translateY(-50%);
+    display: none;
+}
 
 
 
@@ -492,4 +601,12 @@ p.caption {
     .col-xs-12.col-lg-3.text-center {
         text-align: justify;
     }
+
+    .box.text-center::before {
+        display: block;
+    }
+    .box.text-center::after {
+        display: block;
+    }
+
 }
