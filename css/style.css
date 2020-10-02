@@ -25,7 +25,8 @@ h1 {
 .deploy-and-scale .container,
 .carousel .container,
 .carousel-first .container,
-.built-for-business .container {
+.built-for-business .container,
+.bandwidth-pricing {
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -386,6 +387,36 @@ p.caption {
 .col-xs-12.col-lg-3.text-center:not(:last-child) {
     margin-bottom: 100px;
 }
+
+/* bandwidth pricing */
+
+.bandwidth-pricing {
+    background-color: #031b4e;
+    background-image: url(https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bandwidth-pricing .col-sx-12.col-lg-8.col-lg-offset-2.text-center h2,
+.bandwidth-pricing .col-sx-12.col-lg-8.col-lg-offset-2.text-center p {
+    color: #FFF;
+}
+
+.bandwidth-pricing .col-sx-12.col-lg-8.col-lg-offset-2.text-center p {
+    font-weight: 400;
+}
+
+.bandwidth-pricing .col-sx-12.col-lg-8.col-lg-offset-2.text-center a {
+    color: #006aff;
+}
+
+.bandwidth-pricing .col-sx-12.col-lg-8.col-lg-offset-2.text-center a:hover {
+    color: #1633ff;
+    text-decoration: none;
+}
+
+
 
 
 
