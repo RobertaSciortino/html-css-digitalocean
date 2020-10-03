@@ -526,6 +526,75 @@ p.text a:hover {
     margin-top: 10px;
 }
 
+/* footer */
+
+footer {
+    background-color: #010e28;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    padding: 5px 0;
+}
+
+footer ul li h5 {
+    color: #FFF;
+}
+
+footer ul li a {
+    color: #ffffff80;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer .row:first-child {
+    margin-bottom: 30px;
+}
+
+footer .row:nth-child(2) {
+    border-top: 1px solid  #ffffff80;
+    padding-top: 30px;
+}
+
+footer .col-xs-12:first-child  {
+    margin-bottom: 30px;
+}
+
+footer .logo-digital {
+    margin-right: 30px;
+}
+.col-xs-12.border p {
+    color: #ffffff80;
+}
+footer .logo-digital,
+footer .col-xs-12:first-child p {
+    display: inline-block;
+}
+
+footer .row:nth-child(2) a .iconify,
+footer .row:nth-child(2) a .fab {
+    color: #ffffff80;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+footer .container {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
 @media (min-width: 768px) {
 
     .navbar-header {
