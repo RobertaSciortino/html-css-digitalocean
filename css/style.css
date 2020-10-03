@@ -235,15 +235,13 @@ a.alert {
     color: #5b6987;
 }
 
-.brand img {
-    margin: auto;
-}
 
 a.solutions {
     font-size: 18px;
     font-weight: 700;
     color: #0069ff;
 }
+
 .see {
     padding-top: 50px;
 }
@@ -325,7 +323,7 @@ h2 {
 }
 
 
-.col-lg-2 {
+.carousel-first .col-lg-2 {
     position: relative;
     min-height: 401px;
     display: none;
