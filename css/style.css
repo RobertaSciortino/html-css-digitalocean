@@ -323,7 +323,7 @@ h2 {
 }
 
 
-.carousel-first .col-lg-2 {
+.col-lg-2.arrow {
     position: relative;
     min-height: 401px;
     display: none;
@@ -664,6 +664,7 @@ footer .container {
         text-align: justify;
     }
 
+    .img-container.carousel::before,
     .box.text-center::before {
         position: absolute;
         content: '\f060';
@@ -674,6 +675,7 @@ footer .container {
         transform: translateY(-50%);
     }
 
+    .img-container.carousel::after,
     .box.text-center::after {
         position: absolute;
         content: '\f061';
