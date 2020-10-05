@@ -416,10 +416,14 @@ p.caption {
     text-decoration: none;
 }
 
-.col-xs-12.col-lg-6 .city-test:not(:nth-child(12)) {
+.col-xs-12.col-lg-6 .city-test {
     border-bottom: 1px solid #FFFFFF99;
     margin: 0 10px;
     padding: 10px 0;
+}
+
+.col-xs-12.col-lg-6 .city-test.no-border {
+    border-bottom: 0;
 }
 
 .col-xs-2.text-uppercase {
@@ -442,6 +446,8 @@ p.caption {
     color: #1633ff;
     text-decoration: none;
 }
+
+
 
 /* carousel second */
 .carousel-second {
