@@ -426,6 +426,10 @@ p.caption {
     border-bottom: 0;
 }
 
+.col-xs-12.col-lg-6 .city-test.last-item {
+  border-bottom: 1px solid #FFFFFF99;
+}
+
 .col-xs-2.text-uppercase {
     color: #FFF;
 }
@@ -691,6 +695,10 @@ footer .container {
         top: 50%;
         left: 110%;
         transform: translateY(-50%);
+    }
+
+    .col-xs-12.col-lg-6 .city-test.last-item {
+      border-bottom: 0;
     }
 
 }
