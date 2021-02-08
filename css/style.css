@@ -692,8 +692,12 @@ footer .container {
         transform: translateY(-50%);
     }
 
-    .col-xs-12.col-lg-6 .city-test.last-item {
-      border-bottom: 0;
-    }
-
+    
 }
+
+@media (min-width: 1200px) {
+    .col-xs-12.col-lg-6 .city-test.last-item {
+        border-bottom: 0; 
+    }
+}
+
